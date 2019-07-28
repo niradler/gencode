@@ -1,12 +1,20 @@
 {
-  "name": "gencode",
+  "name": "getcode",
   "version": "1.0.0",
-  "description": "",
+  "description": "getcode",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Nir Adler <niradler55@email.com> (https://niradler.com)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niradler/gencode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niradler/gencode/issues"
+  },
+  "homepage": "https://github.com/niradler/gencode#readme"
 }
