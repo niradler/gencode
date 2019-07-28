@@ -1,6 +1,6 @@
 {
   "name": "getcode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "getcode is a package to generate friendly codes, from english words dictionary includes a set of 466327 words.",
   "main": "index.js",
   "scripts": {
