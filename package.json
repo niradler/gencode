@@ -1,14 +1,14 @@
 {
   "name": "getcode",
   "version": "1.0.0",
-  "description": "getcode",
+  "description": "getcode is a package to generate friendly codes, from english words dictionary includes a set of 466327 words.",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
   "keywords": [],
-  "author": "Nir Adler <niradler55@email.com> (https://niradler.com)",
-  "license": "ISC",
+  "author": "Nir Adler <me@niradler.com> (https://niradler.com)",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/niradler/gencode.git"
