@@ -1,3 +1,3 @@
-const GenCode = require("./GenCode");
+const GetCode = require("./GetCode");
 
-module.exports = GenCode;
+module.exports = GetCode;

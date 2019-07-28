@@ -1,15 +1,11 @@
-const GenCode = require("./GenCode");
-let codes = [];
-
-const genCode = new GenCode({});
+const Getcode = require("./GetCode");
+const options = {};
+const getCode = new Getcode(options);
 
 try {
-  //generate 100000 unique codes
-  codes = genCode.generate(100000);
-  console.log("length");
-  console.log(codes.length);
-  console.log([...new Set(codes)].length);
-  console.log(codes[0]);
+  //generate 1000 unique codes
+  const codes = getCode.generate(1000);
+  console.log(codes);
 } catch (error) {
   console.log({ error });
 }
